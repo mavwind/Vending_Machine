@@ -7,6 +7,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+/**
+ * Class representing vending machine container with numbered dispensers containing products
+ */
 public class VendingMachineContainer implements IContainer {
 
     private Map<String, Dispenser> stock;

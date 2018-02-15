@@ -2,6 +2,9 @@ package vendingmachine.machines.products;
 
 import vendingmachine.machines.commons.ProductType;
 
+/**
+ * Class representing products
+ */
 public class Product {
     private String name;
     private int price;
@@ -17,23 +20,8 @@ public class Product {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public int getPrice() {
         return price;
-    }
-
-    public void setPrice(int price) {
-        this.price = price;
-    }
-
-    public ProductType getType() {
-        return type;
-    }
-
-    public void setType(ProductType type) {
-        this.type = type;
     }
 }

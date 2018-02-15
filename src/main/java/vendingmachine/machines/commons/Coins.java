@@ -1,5 +1,8 @@
 package vendingmachine.machines.commons;
 
+/**
+ * enum class with types of money (both with coins and notes)
+ */
 public enum Coins {
     TWO_HUNDRED_PLN(20000),
     ONE_HUNDRED_PLN(10000),

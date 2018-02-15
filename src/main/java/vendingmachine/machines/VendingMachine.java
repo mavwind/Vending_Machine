@@ -9,6 +9,9 @@ import vendingmachine.machines.wallets.exceptions.WalletRestPreparingException;
 
 import java.util.Map;
 
+/**
+ * Class representing vending machine
+ */
 public class VendingMachine implements IMachine {
 
     private String choice;

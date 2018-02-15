@@ -7,6 +7,10 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * Class responsible for initializing dispensers containing specified products and money container
+ * with precise type and number of money
+ */
 public class InitialState {
 
     private static final InitialState instance = new InitialState();

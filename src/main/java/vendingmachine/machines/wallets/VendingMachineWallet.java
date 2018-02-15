@@ -7,6 +7,9 @@ import vendingmachine.machines.wallets.exceptions.WalletRestPreparingException;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Class representing money container inside vending machine
+ */
 public class VendingMachineWallet implements IWallet {
     private static final String ERROR_MESSAGE = "Error during rest preparing";
 

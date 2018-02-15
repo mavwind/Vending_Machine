@@ -2,6 +2,9 @@ package vendingmachine.machines.dispensers;
 
 import vendingmachine.machines.products.Product;
 
+/**
+ * Class represnting dispensers with products and specified number of products
+ */
 public class Dispenser {
     private Product product;
     private int number;
@@ -15,15 +18,8 @@ public class Dispenser {
         return product;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
-    }
-
     public int getNumber() {
         return number;
     }
 
-    public void setNumber(int number) {
-        this.number = number;
-    }
 }
